@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "New Bark Town",
+        "type": "town",
+        "region": "Johto",
+        "description": "A town where the wind blows and tells of impending change.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            [[10,10],[200,200]],
+            [[220,220],[400,400]]
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Route 29",
+        "type": "route",
+        "region": "Johto",
+        "description": "A road that begins a journey. The road smells like freshly cut grass.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            [[450,450],[600,600]]
+        ]
+    }
+]
