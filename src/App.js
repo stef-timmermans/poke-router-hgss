@@ -1,38 +1,38 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import DestinationButton from './DestinationButton';
 import locations from './data/locations.json';
 import mapImage from './images/jhoto-kanto-map.png';
 
 function App() {
-  const [selectedLocation, setSelectedLocation] = useState(null);
-  const [hoveredLocation, setHoveredLocation] = useState(null);
-
-  const handleLocationSelect = (id) => {
-    setSelectedLocation(locations.find(location => location.id === id));
+  // Define the event handlers here
+  const handleHover = (id) => {
+    console.log(`Hovered over location with id ${id}`);
   };
 
-  const handleLocationHover = (id) => {
-    setHoveredLocation(locations.find(location => location.id === id));
+  const handleLeave = () => {
+    console.log(`Mouse left location`);
   };
 
-  const handleLocationLeave = () => {
-    setHoveredLocation(null);
+  const handleSelect = (id) => {
+    console.log(`Selected location with id ${id}`);
   };
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={mapImage} alt="Map of Jhoto and Kanto" style={{position: 'relative'}} />
-        {locations.map((location) => 
-          <DestinationButton 
-            key={location.id} 
-            location={location}
-            onHover={handleLocationHover}
-            onLeave={handleLocationLeave}
-            onSelect={handleLocationSelect}
-          />
-        )}
+        <div style={{position: "relative"}}>
+          <img src={mapImage} alt="Map of Jhoto and Kanto" style={{width: "100%"}} />
+          {locations.map(location => (
+            <DestinationButton 
+              key={location.id} 
+              location={location} 
+              onHover={handleHover} 
+              onLeave={handleLeave} 
+              onSelect={handleSelect} 
+            />
+          ))}
+        </div>
       </header>
     </div>
   );
