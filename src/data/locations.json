@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "New Bark Town",
+        "type": "town",
+        "region": "Johto",
+        "description": "A town where the wind blows and tells of impending change.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            [[20,20],[80,80]]
+        ]
+    }
+]
