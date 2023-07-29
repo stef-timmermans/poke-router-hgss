@@ -16,5 +16,1751 @@
         "shapes": [
             [[20,20],[80,80]]
         ]
+    },
+    {
+        "id": 2,
+        "name": "Route 29",
+        "type": "route",
+        "region": "Johto",
+        "description": "A road that begins a journey. The road smells like freshly cut grass.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Cherrygrove City",
+        "type": "town",
+        "region": "Johto",
+        "description": "A city where you can smell small flowers and a sea breeze.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Route 30",
+        "type": "route",
+        "region": "Johto",
+        "description": "A grassy path where you can battle other young Trainers.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Dark Cave",
+        "type": "cave",
+        "region": "Johto",
+        "description": "A dark, difficult-to-navigate tunnel that runs beneath the Johto region.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Route 31",
+        "type": "route",
+        "region": "Johto",
+        "description": "A short, nostalgic path winding through nature.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Violet City",
+        "type": "town",
+        "region": "Johto",
+        "description": "This old village is still surrounded by trees and other scenery.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Sprout Tower",
+        "type": "other",
+        "region": "Johto",
+        "description": "A tower where they study diligently to learn to live with Pokémon.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Route 32",
+        "type": "route",
+        "region": "Johto",
+        "description": "A path crossed by the Magnet Train bridge--nature meets technology.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Ruins of Alph",
+        "type": "other",
+        "region": "Johto",
+        "description": "A place where you can find a former adventure.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Union Cave",
+        "type": "cave",
+        "region": "Johto",
+        "description": "Deep underground, it's connected to the ocean. The water flows here.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Route 33",
+        "type": "route",
+        "region": "Johto",
+        "description": "A difficult and always rainy path that comes out in a cave.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Azalea Town",
+        "type": "town",
+        "region": "Johto",
+        "description": "A town where people and Pokémon live together in simple harmony.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Slowpoke Well",
+        "type": "cave",
+        "region": "Johto",
+        "description": "When Slowpoke are thirsty, they come here to drink.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Ilex Forest",
+        "type": "forest",
+        "region": "Johto",
+        "description": "A large forest full of trees that are used to make charcoal.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Route 34",
+        "type": "route",
+        "region": "Johto",
+        "description": "A lush, green path, even though it's right next to a city.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Goldenrod City",
+        "type": "town",
+        "region": "Johto",
+        "description": "A developing city where people and Pokémon come and go as they like.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Route 35",
+        "type": "route",
+        "region": "Johto",
+        "description": "A bright path with a lake that's easy on the eyes and easy to traverse.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 19,
+        "name": "National Park",
+        "type": "other",
+        "region": "Johto",
+        "description": "A spacious and beautiful park. It's connected to the Pokéathlon Dome.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Route 36",
+        "type": "route",
+        "region": "Johto",
+        "description": "A green and densely overgrown path that forks in two directions.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Route 37",
+        "type": "route",
+        "region": "Johto",
+        "description": "A popular route for Trainers, marked by three Apricorn trees.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Ecruteak City",
+        "type": "town",
+        "region": "Johto",
+        "description": "A city that even now bears the marks of its history",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Burned Tower",
+        "type": "other",
+        "region": "Johto",
+        "description": "A tower that was hit by lightning, and subsequently caught fire and burned.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Tin Tower",
+        "type": "other",
+        "region": "Johto",
+        "description": "A tower that's said to have a legendary Pokémon that lands there.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Route 38",
+        "type": "route",
+        "region": "Johto",
+        "description": "A path that weaves through trees and comes out at a farm.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Route 39",
+        "type": "route",
+        "region": "Johto",
+        "description": "A downhill path that passes through a grassy and breezy plain.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Olivine City",
+        "type": "town",
+        "region": "Johto",
+        "description": "A city where you can hear the melody of the sea.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Glitter Lighthouse",
+        "type": "other",
+        "region": "Johto",
+        "description": "It shines brightly over the ocean with the power of Ampharos.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Route 40",
+        "type": "route",
+        "region": "Johto",
+        "description": "You can hear the waves on this path from west Olivine City to the sea.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Battle Frontier",
+        "type": "other",
+        "region": "Johto",
+        "description": "A place where people from all over come to show off their strength.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Route 41",
+        "type": "route",
+        "region": "Johto",
+        "description": "A rough spot in the sea where whirlpools block your path.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Whirl Islands",
+        "type": "cave",
+        "region": "Johto",
+        "description": "Four islands that are protected by whirlpools and are difficult to reach.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Cianwood City",
+        "type": "town",
+        "region": "Johto",
+        "description": "A beachside city that has benefitted greatly from the sea.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Route 42",
+        "type": "route",
+        "region": "Johto",
+        "description": "A small path opened at the base of challenging Mt. Mortar with multiple entrances to it.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Mt. Mortar",
+        "type": "cave",
+        "region": "Johto",
+        "description": "A naturally large cavern that is incredibly spacious.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Mahogany Town",
+        "type": "town",
+        "region": "Johto",
+        "description": "A town with a suspicious air to it. It's a hiding place for ninjas.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Route 43",
+        "type": "route",
+        "region": "Johto",
+        "description": "A town with a suspicious air to it. It's a hiding place for ninjas.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Lake of Rage",
+        "type": "lake",
+        "region": "Johto",
+        "description": "A huge lake full of clear, blue water.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Route 44",
+        "type": "route",
+        "region": "Johto",
+        "description": "A wonderful path with a few pleasant springs and abundant greenery.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Ice Path",
+        "type": "cave",
+        "region": "Johto",
+        "description": "A cave that connects Route 44 to Blackthorn City.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Blackthorn City",
+        "type": "town",
+        "region": "Johto",
+        "description": "A mysterious mountain village cut into a rock face.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Route 45",
+        "type": "route",
+        "region": "Johto",
+        "description": "A winding road by a river, but called \"Mountain Road.\"",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Route 46",
+        "type": "route",
+        "region": "Johto",
+        "description": "A way home that runs from the base of the mountains to the plains.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Route 47",
+        "type": "route",
+        "region": "Johto",
+        "description": "A road on a cliff that strikes fear in the hearts of those who dare to pass.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Route 48",
+        "type": "route",
+        "region": "Johto",
+        "description": "A pleasant path from the base of the mountain to the Safari Zone.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id" : 46,
+        "name" : "Safari Zone",
+        "type" : "other",
+        "region" : "Johto",
+        "description": "A place where you can experience wild thrills safely.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Pallet Town",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A fairly new and quiet town. It's a small and pretty place.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Route 1",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A country road full of greenery and rough paths.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Viridian City",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A beautiful city that is enveloped in green year-round.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Route 2",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A forest filled with nature and Bug-type Pokémon.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Viridian Forest",
+        "type": "forest",
+        "region": "Kanto",
+        "description": "A forest filled with nature and Bug-type Pokémon.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Diglett's Cave",
+        "type": "cave",
+        "region": "Kanto",
+        "description": "A tunnel dug by Diglett connecting Vermilion City to Pewter City.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Pewter City",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A quiet city nestled between rugged mountains and rocks",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Route 3",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A road where many rocks have fallen from the sky to create craters.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Mt. Moon",
+        "type": "cave",
+        "region": "Kanto",
+        "description": "A mountain where a star fell. It now holds a mysterious power.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {   
+        "id": 56,
+        "name": "Route 4",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A one-way road down a hill that has a gentle slope and is fun to traverse.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Cerulean City",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A beautiful city with flowing water and blooming flowers.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Cerulean Cave",
+        "type": "cave",
+        "region": "Kanto",
+        "description": "A cave that had collapsed once. It has been reconstructed.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Route 5",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A road running north of Saffron City connecting to the Underground Path.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Saffron City",
+        "type": "town",
+        "region": "Kanto",
+        "description": "The biggest city in Kanto, shining with a golden light.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Route 6",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A road running south of Saffron City connecting to the Underground Path.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Vermilion City",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A southern city that is bathed in orange by the setting sun.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Route 7",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A short road that leads to the blocked-off Underground Path.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Celadon City",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A rich, rainbow colored city where people and Pokémon gather.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Route 8",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A short road that leads to the blocked-off Underground Path.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Route 9",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A road that forms a maze crossing a small, rocky mountain.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Rock Tunnel",
+        "type": "cave",
+        "region": "Kanto",
+        "description": "A dark tunnel that begins in Lavender Town and comes out in Cerulean City.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Power Plant",
+        "type": "other",
+        "region": "Kanto",
+        "description": "The plant that generates all the energy for the Kanto region.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Route 10",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A road that passes along the canal and comes out at the Power Plant.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Lavender Town",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A small town covered in a beautiful hue of purple.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Route 11",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A grassy path with a gentle, refreshing breeze.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Route 12",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A bridge known for its fishing. It's also called \"Silence Bridge.\"",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Route 13",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A difficult, narrow path where many Trainers await you.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Route 14",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A pleasant coastal road where the breeze blows and waves roar.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Route 15",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A path that cuts through the row of trees to come out on the coastline.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Fuchsia City",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A historic village that has become new.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Pal Park",
+        "type": "other",
+        "region": "Kanto",
+        "description": "A historic village that has become new.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Route 16",
+        "type": "route",
+        "region": "Kanto",
+        "description": "The northern starting point of Cycling Road.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Route 17",
+        "type": "route",
+        "region": "Kanto",
+        "description": "An easy path of Cycling Road running above the sea.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Route 18",
+        "type": "route",
+        "region": "Kanto",
+        "description": "The southern ending point of Cycling Road.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Route 19",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A coastal road littered with rocks due to Cinnabar Island's volcano eruption.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Route 20",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A popular path with swimmers. The Seafoam Islands are also here.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Seafoam Islands",
+        "type": "cave",
+        "region": "Kanto",
+        "description": "Two small islands lightly floating in the ocean.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Cinnabar Island",
+        "type": "town",
+        "region": "Kanto",
+        "description": "A town used to be here until it was swept away by an eruption.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Route 21",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A coastal road where the only threat might be the volcano on the horizon.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Route 22",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A path to Victory Road that eventually becomes impassable.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Route 24",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A beautiful bridge that stretches across a river.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Route 25",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A path that winds through the forest and comes out overlooking the sea.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Route 26",
+        "type": "route",
+        "region": "Kanto",
+        "description": "An unimaginably difficult mountain road that gives the impression of a test.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Route 27",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A road that crosses from Johto to the Kanto region, like a new journey.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Tohjo Falls",
+        "type": "cave",
+        "region": "Kanto",
+        "description": "The Tohjo waterfall that links the Kanto and Johto regions.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Route 28",
+        "type": "route",
+        "region": "Kanto",
+        "description": "A vacant and hidden mountain road that continues to Mt. Silver.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Mt. Silver",
+        "type": "cave",
+        "region": "Kanto",
+        "description": "A hallowed mountain that rises between the Johto and Kanto regions.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Victory Road",
+        "type": "cave",
+        "region": "Kanto",
+        "description": "A road that tests Trainers aiming at the Pokémon League.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Indigo Plateau",
+        "type": "other",
+        "region": "Kanto",
+        "description": "The fate of many Trainers aiming for the top rests here.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Sinjoh Ruins",
+        "type": "other",
+        "region": "Unknown",
+        "description": "A snow-covered area of old legends, surrounded by a wall of snow.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Roaming Johto",
+        "type": "other",
+        "region": "Johto",
+        "description": "Pokémon roaming the routes of Johto, once certain events have taken place.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Roaming Kanto",
+        "type": "other",
+        "region": "Kanto",
+        "description": "Pokémon roaming the routes of Kanto, once certain events have taken place.",
+        "pokemon": {
+            "land": [
+
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            []
+        ]
     }
 ]
