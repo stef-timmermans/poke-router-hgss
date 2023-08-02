@@ -23,6 +23,7 @@ const DestinationButton = ({ location, onHover, onLeave }) => {
           onMouseEnter={() => onHover(location.id)}
           onMouseLeave={onLeave}
           onClick={() => navigate(`/location/${urlDashedLocationName}`)}
+          title={location.name} // Add the location name as the button title
         />
       )}
     </>
