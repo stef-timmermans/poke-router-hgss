@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const DestinationButton = ({ location, onHover, onLeave }) => {
   const navigate = useNavigate();
+  const urlDashedLocationName = location.name.replace(/\s+/g, '-'); // Replace spaces with hyphens
 
   return (
     <>
@@ -21,7 +22,7 @@ const DestinationButton = ({ location, onHover, onLeave }) => {
           }}
           onMouseEnter={() => onHover(location.id)}
           onMouseLeave={onLeave}
-          onClick={() => navigate(`/location/${location.id}`)}
+          onClick={() => navigate(`/location/${urlDashedLocationName}`)}
         />
       )}
     </>

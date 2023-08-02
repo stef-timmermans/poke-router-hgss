@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
 import DestinationButton from './DestinationButton';
+import LocationPage from './LocationPage';
 import locations from './data/locations.json';
 import mapImage from './images/jhoto-kanto-map.png';
 
@@ -36,17 +37,15 @@ function App() {
           </div>
         } />
 
-        {locations.map(location => (
-          <Route path={`/location/${location.id}`} element={
-            <div className="App">
-              <header className="App-header">
-                <h1>{location.name}</h1>
-                <p>{location.description}</p>
-                <Link to="/">Back to Map</Link>
-              </header>
-            </div>
-          } />
-        ))}
+        {locations.map(location => {
+          const urlDashedLocationName = location.name.replace(/\s+/g, '-'); // Replace spaces with hyphens
+
+          return (
+            <Route path={`/location/${urlDashedLocationName}`} element={
+              <LocationPage location={location} />
+            } />
+          );
+        })}
       </Routes>
     </Router>
   );
