@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import './App.css';
 import DestinationButton from './DestinationButton';
 import locations from './data/locations.json';
@@ -14,27 +15,40 @@ function App() {
     console.log(`Mouse left location`);
   };
 
-  const handleSelect = (id) => {
-    console.log(`Selected location with id ${id}`);
-  };
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <div style={{position: "relative"}}>
-          <img src={mapImage} alt="Map of Jhoto and Kanto" style={{width: "100%"}} />
-          {locations.map(location => (
-            <DestinationButton 
-              key={location.id} 
-              location={location} 
-              onHover={handleHover} 
-              onLeave={handleLeave} 
-              onSelect={handleSelect} 
-            />
-          ))}
-        </div>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={
+          <div className="App">
+            <header className="App-header">
+              <div style={{position: "relative"}}>
+                <img src={mapImage} alt="Map of Jhoto and Kanto" style={{width: "100%"}} />
+                {locations.map(location => (
+                  <DestinationButton 
+                    key={location.id} 
+                    location={location} 
+                    onHover={handleHover} 
+                    onLeave={handleLeave} 
+                  />
+                ))}
+              </div>
+            </header>
+          </div>
+        } />
+
+        {locations.map(location => (
+          <Route path={`/location/${location.id}`} element={
+            <div className="App">
+              <header className="App-header">
+                <h1>{location.name}</h1>
+                <p>{location.description}</p>
+                <Link to="/">Back to Map</Link>
+              </header>
+            </div>
+          } />
+        ))}
+      </Routes>
+    </Router>
   );
 }
 

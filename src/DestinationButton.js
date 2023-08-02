@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const DestinationButton = ({ location, onHover, onLeave, onSelect }) => {
+const DestinationButton = ({ location, onHover, onLeave }) => {
+  const navigate = useNavigate();
+
   return (
     <>
       {location.shapes.map((shape, index) => 
@@ -18,7 +21,7 @@ const DestinationButton = ({ location, onHover, onLeave, onSelect }) => {
           }}
           onMouseEnter={() => onHover(location.id)}
           onMouseLeave={onLeave}
-          onClick={() => onSelect(location.id)}
+          onClick={() => navigate(`/location/${location.id}`)}
         />
       )}
     </>
