@@ -1,3 +1,17 @@
+/*
+  Component: LocationButton
+  Description:
+    The LocationButton component stores the
+    button required to navigate to a location.
+    Some locations require multiple buttons to
+    be defined as a more complex shape (for example,
+    and L-shaped location requires two buttons to
+    be defined). The LocationButton component
+    reads in from the locations data file to
+    determine the location's shape and coordinates
+    and renders the button accordingly.
+*/
+
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -11,6 +25,13 @@ const DestinationButton = ({ location, onHover, onLeave }) => {
         <button
           key={index}
           style={{
+            /*
+              Load the button with the location's shape's coordinates, which are 
+              relative to the map's container. The start and end coordinates are
+              inclusive. Some locations require multiple shapes to be defined but
+              will ultimately function more or less as a single button other than
+              tooltip behavior.
+            */
             position: 'absolute',
             top: `${shape[0][0]}px`,
             left: `${shape[0][1]}px`,

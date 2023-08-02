@@ -1,3 +1,10 @@
+/*
+  Component: App
+  Description:
+    The main component of the app. This component is responsible
+    for rendering the map image and all buttons. 
+*/
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
@@ -41,6 +48,7 @@ function App() {
           const urlDashedLocationName = location.name.replace(/\s+/g, '-'); // Replace spaces with hyphens
 
           return (
+            // Route the user to the location page and load the page component when they click on a location
             <Route path={`/location/${urlDashedLocationName}`} element={
               <LocationPage location={location} />
             } />
