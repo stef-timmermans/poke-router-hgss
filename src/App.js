@@ -8,8 +8,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
-import DestinationButton from './DestinationButton';
-import LocationPage from './LocationPage';
+import DestinationButton from './elements/DestinationButton';
+import LocationPage from './pages/LocationPage';
 import locations from './data/locations.json';
 import mapImage from './images/jhoto-kanto-map.png';
 
