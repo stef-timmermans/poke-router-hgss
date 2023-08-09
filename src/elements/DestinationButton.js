@@ -42,8 +42,8 @@ const DestinationButton = ({ location, onHover, onLeave }) => {
               tooltip behavior.
             */
             position: 'absolute',
-            top: `${shape[0][0]}px`,
-            left: `${shape[0][1]}px`,
+            top: `${shape[0][1]}px`, 
+            left: `${shape[0][0]}px`,
             width: `${shape[1][0] - shape[0][0] + 1}px`,
             height: `${shape[1][1] - shape[0][1] + 1}px`,
 
