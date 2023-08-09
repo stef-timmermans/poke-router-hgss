@@ -1,11 +1,11 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom'; // Also import Link for navigation
+import { useParams, Link } from 'react-router-dom';
 
 const PokemonPage = ({ allPokemonData, allLocationsData }) => {
-    const { pokemonId } = useParams(); // Get pokemonId from the URL
+    const { pokemonId } = useParams();
 
     const pokemon = allPokemonData.find(p => p.id === parseInt(pokemonId, 10));
-    if (!pokemon) return <div>Pokemon not found</div>; // Early return if pokemon not found
+    if (!pokemon) return <div>Pokemon not found</div>;
 
     const getLocationNameById = (id) => {
         const location = allLocationsData?.find(loc => loc.id === id);
@@ -19,16 +19,27 @@ const PokemonPage = ({ allPokemonData, allLocationsData }) => {
             <div>
                 Evolutions: 
                 {pokemon.pokemon_line.evolutions.map(evoId => (
-                    <span key={evoId}>{getLocationNameById(evoId)}, </span>
+                    <span key={evoId}>
+                        <Link to={`/location/${evoId}`}>{getLocationNameById(evoId)}</Link>, 
+                    </span>
                 ))}
             </div>
             <div>
                 Previous Evolutions: 
                 {pokemon.pokemon_line.pre_evolutions.map(preEvoId => (
-                    <span key={preEvoId}>{getLocationNameById(preEvoId)}, </span>
+                    <span key={preEvoId}>
+                        <Link to={`/location/${preEvoId}`}>{getLocationNameById(preEvoId)}</Link>, 
+                    </span>
                 ))}
             </div>
-            <p>Found in locations: {pokemon.found_in.map(id => getLocationNameById(id)).join(', ')}</p>
+            <div>
+                Found in locations: 
+                {pokemon.found_in.map(id => (
+                    <span key={id}>
+                        <Link to={`/location/${id}`}>{getLocationNameById(id)}</Link>, 
+                    </span>
+                ))}
+            </div>
             <Link to="/">Back to Home</Link>
         </div>
     );
