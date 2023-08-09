@@ -1,21 +1,14 @@
-/*
-  Component: App
-  Description:
-    The main component of the app. This component is responsible
-    for rendering the map image and all buttons. 
-*/
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
 import DestinationButton from './elements/DestinationButton';
 import LocationPage from './pages/LocationPage';
+import PokemonPage from './pages/PokemonPage'; // Ensure you import the PokemonPage component
 import locations from './data/locations.json';
 import pokemon from './data/pokemon.json';
 import mapImage from './images/jhoto-kanto-map.png';
 
 function App() {
-  // Define the event handlers here
   const handleHover = (id) => {
     console.log(`Hovered over location with id ${id}`);
   };
@@ -46,15 +39,18 @@ function App() {
         } />
 
         {locations.map(location => {
-          const urlDashedLocationName = location.name.replace(/\s+/g, '-'); // Replace spaces with hyphens
-
+          const urlDashedLocationName = location.name.replace(/\s+/g, '-'); 
           return (
-            // Route the user to the location page and load the page component when they click on a location
             <Route path={`/location/${urlDashedLocationName}`} element={
-              <LocationPage location={location} />
+              <LocationPage location={location} allPokemonData={pokemon} allLocationsData={locations} />
             } />
           );
         })}
+
+        <Route path={`/pokemon/:pokemonId`} element={
+          <PokemonPage allPokemonData={pokemon} allLocationsData={locations} />
+        } />
+        
       </Routes>
     </Router>
   );
