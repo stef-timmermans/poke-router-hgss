@@ -1,0 +1,92 @@
+[
+    {
+        "id": 152,
+        "name": "Chikorita",
+        "types": ["Grass"],
+        "pokemon_line": {
+            "pre_evolutions": [],
+            "evolutions": [153, 154]
+        },
+        "found_in": [1]
+    },
+    {
+        "id": 153,
+        "name": "Bayleef",
+        "types": ["Grass"],
+        "pokemon_line": {
+            "pre_evolutions": [152],
+            "evolutions": [154]
+        },
+        "found_in": []
+    },
+    {
+        "id": 154,
+        "name": "Meganium",
+        "types": ["Grass"],
+        "pokemon_line": {
+            "pre_evolutions": [152, 153],
+            "evolutions": []
+        },
+        "found_in": []
+    },
+    {
+        "id": 155,
+        "name": "Cyndaquil",
+        "types": ["Fire"],
+        "pokemon_line": {
+            "pre_evolutions": [],
+            "evolutions": [156, 157]
+        },
+        "found_in": [1]
+    },
+    {
+        "id": 156,
+        "name": "Quilava",
+        "types": ["Fire"],
+        "pokemon_line": {
+            "pre_evolutions": [155],
+            "evolutions": [157]
+        },
+        "found_in": []
+    },
+    {
+        "id": 157,
+        "name": "Typhlosion",
+        "types": ["Fire"],
+        "pokemon_line": {
+            "pre_evolutions": [155, 156],
+            "evolutions": []
+        },
+        "found_in": []
+    },
+    {
+        "id": 158,
+        "name": "Totodile",
+        "types": ["Water"],
+        "pokemon_line": {
+            "pre_evolutions": [],
+            "evolutions": [159, 160]
+        },
+        "found_in": [1]
+    },
+    {
+        "id": 159,
+        "name": "Croconaw",
+        "types": ["Water"],
+        "pokemon_line": {
+            "pre_evolutions": [158],
+            "evolutions": [160]
+        },
+        "found_in": []
+    },
+    {
+        "id": 160,
+        "name": "Feraligatr",
+        "types": ["Water"],
+        "pokemon_line": {
+            "pre_evolutions": [158, 159],
+            "evolutions": []
+        },
+        "found_in": []
+    }
+]

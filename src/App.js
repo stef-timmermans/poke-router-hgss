@@ -11,6 +11,7 @@ import './App.css';
 import DestinationButton from './elements/DestinationButton';
 import LocationPage from './pages/LocationPage';
 import locations from './data/locations.json';
+import pokemon from './data/pokemon.json';
 import mapImage from './images/jhoto-kanto-map.png';
 
 function App() {
