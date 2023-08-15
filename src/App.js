@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
 import DestinationButton from './elements/DestinationButton';
 import LocationPage from './pages/LocationPage';
-import PokemonPage from './pages/PokemonPage'; // Ensure you import the PokemonPage component
+import PokemonPage from './pages/PokemonPage';
 import locations from './data/locations.json';
 import pokemon from './data/pokemon.json';
 import mapImage from './images/jhoto-kanto-map.png';
@@ -47,7 +47,7 @@ function App() {
 		  );
 		})}
 
-		<Route path={`/pokemon/:pokemonId`} element={
+		<Route path={`/pokemon/:pokemonName`} element={
 		  <PokemonPage allPokemonData={pokemon} allLocationsData={locations} />
 		} />
 		
