@@ -22,3 +22,7 @@ The following features are planned for future releases (and eventually v1.0.0):
 - Data for all Pokémon and their locations obtainable in the games (including evolutionary lines and event Pokémon).
 - A button that displays all Pokémon of the region, with the ability to filter by type.
 - Buttons for some obscure locations, such as the Sinjoh Ruins.
+
+## Copyright
+
+For all copyright information for this project, please see the `NOTICE` file in the root directory.
