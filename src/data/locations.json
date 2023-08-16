@@ -7,6 +7,24 @@
         "description": "A town where the wind blows and tells of impending change.",
         "pokemon": {
             "land": [
+                [152,153,154]
+            ],
+            "water": [
+
+            ]
+        },
+        "shapes": [
+            [[530,342],[563,380]]
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Route 29",
+        "type": "route",
+        "region": "Johto",
+        "description": "A road that begins a journey. The road smells like freshly cut grass.",
+        "pokemon": {
+            "land": [
 
             ],
             "water": [
@@ -14,7 +32,7 @@
             ]
         },
         "shapes": [
-            [[20,20],[80,80]]
+            [[457,348],[529,374]]
         ]
     }
 ]

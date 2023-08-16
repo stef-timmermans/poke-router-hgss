@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# PokeRouterHGSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository holds the source code for PokeRouterHGSS, a web application for an interactive map of the Pokémon HeartGold and SoulSilver games. It is written in JavaScript using the React framework. This application is still very much a work in progress but the existing shell of the app exists in this release (pre-v0.1.0).
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+First, ensure you have updated versions of Node.js and npm installed on your machine (as of this writing, npm v9.7.1 and node v18.16.0). Then, clone this repository to your local machine and run `npm install` to install all dependencies. Finally, run `npm start` to start the development server. The app should open in your default browser at `localhost:3000`.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app currently has the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A map of the Johto region from Pokémon HeartGold and SoulSilver.
+- Buttons for New Bark Town and Route 29 that, when clicked, will display the corresponding location data.
+- Data for Chikorita's evolutionary line and its location (New Bark Town).
 
-### `npm test`
+## Planned Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following features are planned for future releases (and eventually v1.0.0):
 
-### `npm run build`
+- Full support for all of the buttons on the map.
+- Data for all Pokémon and their locations obtainable in the games (including evolutionary lines and event Pokémon).
+- A button that displays all Pokémon of the region, with the ability to filter by type.
+- Buttons for some obscure locations, such as the Sinjoh Ruins.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Copyright
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For all copyright information for this project, please see the `NOTICE` file in the root directory.
