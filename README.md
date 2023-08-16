@@ -1,6 +1,6 @@
 # PokeRouterHGSS
 
-This repository holds the source code for PokeRouterHGSS, a web application for an interactive map of the Pokémon HeartGold and SoulSilver games. It is written in JavaScript using the React framework. This application is still very much a work in progress but the existing shell of the app exists in this release (pre-v0.1.0).
+This repository holds the source code for PokeRouterHGSS, a web application for an interactive map of the Pokémon HeartGold and SoulSilver games. It is written in JavaScript using the React framework. This application is still very much a work in progress but the existing shell of the app exists in this release (v0.1.0-pre).
 
 ## Getting Started
 
